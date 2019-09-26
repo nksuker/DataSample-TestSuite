@@ -1,10 +1,10 @@
 # DataSample-and-Test-Suite
-This project is for generating a sequence that passs all the NIST test suite and TestU01 batteries and Hamano et al.'s new test 
+This project is for generating a sequence that passs all the NIST test suite, TestU01 batteries and Hamano et al.'s  test,
 but will be rejected by our proposed DM-1 and DM-2 test.
 
 ##1. Generate the Sample Sequence 
 
-   The code for generating the sample data is in the file "GenerateSample.c", in which uses the data file "rdseed.data" as input. The 
+   The code for generating the sample data is in the file "GenerateSample.c", in which the data file "rdseed.data" is used as input. The 
 output file is named "biggap10_4_1". Compile this single c source file and run it, then you will get the generated file biggap10_4_1,
 which is the same as "sample.data".
 
